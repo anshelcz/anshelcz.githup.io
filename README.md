@@ -15,9 +15,9 @@ De lo anteriormente mencionado, se propone el análisis de un edificio de dos pi
 
 En tal sentido, la investigación se limita a estudiar una estructura aporticada simplificada axialmente rígida. Además, el alcance del análisis es estudiar la estructura bajo cuatro cargas, cargas muertas, vivas, de viento y de sismo, y empleando únicamente dos combinaciones de carga. Además, las cargas muertas y vivas se consideran cargas gravitatorias, mientras que la carga de viento, una carga horizontal que actúa perpendicular a las columnas extremas izquierdas. En cuanto a la carga del sismo, esta únicamente actúa en los nodos del lado izquierdo de la estructura y su valor es proporcional a la cantidad de pisos de la estructura así como a la carga muerta que se presenta.
 
-Ver desarrollo del trabajo en [*Anexo 1*](./ANEXO_1_Primera_combinación.pdf)
+Ver desarrollo del trabajo en [*Anexo 1*](./imagenes/ANEXO_1_Primera_combinación.pdf)
 
-Ver desarrollo del trabajo en [Anexo 2](./ANEXO_2_Segunda_combinación.pdf).
+Ver desarrollo del trabajo en [Anexo 2](./imagenes/ANEXO_2_Segunda_combinación.pdf).
 
 
 # 2. Deforestación de la Amazonía en Madre de Dios: Corredor minero
