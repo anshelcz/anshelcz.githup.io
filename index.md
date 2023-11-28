@@ -3,7 +3,7 @@ layout: default
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
-
+![dfd](./imagenes/1comb.png)
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
