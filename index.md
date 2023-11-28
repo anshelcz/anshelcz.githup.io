@@ -103,7 +103,7 @@ Imin=1+2H/400/E=32141+218383/400/4176000=0.431 ft4
 Sin embargo, por cuestiones de seguridad se propone utilizar una inercia un poco mayor,
 I=0.5 ft4
 
-Ver procedimiento detallado en el [*Anexo 1*](./ANEXO_1_Primera_combinación.pdf)
+Ver procedimiento detallado en el [*Anexo 1*](./imagenes/ANEXO_1_Primera_combinación.pdf)
 
 #### Segunda combinación
 
@@ -152,7 +152,7 @@ E=177154+1855843/400/4176000=2.895 ft4
 Sin embargo, por cuestiones de seguridad se decidió utilizar una inercia un poco mayor de
 `I=3 ft4`
 
-Ver procedimiento detallado en el [Anexo 2](./ANEXO_2_Segunda_combinación.pdf).
+Ver procedimiento detallado en el [Anexo 2](./imagenes/ANEXO_2_Segunda_combinación.pdf).
 
 
 # 2. Deforestación de la Amazonía en Madre de Dios: Corredor minero
