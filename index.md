@@ -39,13 +39,13 @@ Para el desarrollo de las ecuaciones de pendiente-deflexión, estas requieren de
 
 Para realizar el análisis, primero se encontró la inercia mínima que requiere una estructura aporticada de acero para cumplir con el desplazamiento máximo. Este procedimiento se realizó mediante el método pendiente deflexión, pues permite encontrar fácilmente los giros y el  desplazamiento lateral de la estructura de manera más corta. Las combinaciones de cargas son las siguientes:
 
-![dfd](/.imagenes/1comb.png)
+![dfd](./imagenes/1comb.png)
 
 **Figura 1.** Diagrama de la primera combinación
-![](/.imagenes/dib1.png)
+![](./imagenes/dib1.png)
 
 **Figura 2.** Diagrama de la segunda combinación
-![](/.imagenes/dib2.png)
+![](./imagenes/dib2.png)
 
 
 ## Análisis Estructural
@@ -58,44 +58,44 @@ Se decidió emplear el método pendiente-deflexión dado a su facilidad de encon
 En la primera combinación, primero se encontró los momentos internos de empotradura en los extremos de cada tramo y, dado a su similitud, se pueden resumir en:
 
 **Figura 3.** Momentos internos de empotradura en cada tramo, primera combinación
-![](/.imagenes/f3.png)
+![](./imagenes/f3.png)
 
 Posteriormente, se definieron las variables de desplazamiento lateral en la estructura y el ángulo de giro generado por este mismo.
 
 **Figura 4.** Desplazamiento lateral y giro en la estructura
-![](/.imagenes/f4.png)
+![](./imagenes/f4.png)
 
 Considerando la ecuación de pendiente deflexión, los momentos internos en los extremos de cada tramo serían:
-![](/.imagenes/e1.png)
+![](./imagenes/e1.png)
 
 Por lo tanto, realizando equilibrio de momentos en los nodos 
 
 ***Equilibrio de momentos en los nodos C e I***
-![](/.imagenes/e2.png)
+![](./imagenes/e2.png)
 
 **Equilibrio de momentos en los nodos B, H, F**
-![](/.imagenes/e3.png)
+![](./imagenes/e3.png)
 
 **Equilibrio de momentos en el nodo E**
-![](/.imagenes/e4.png)
+![](./imagenes/e4.png)
 
 Para solucionar el sistema de ecuaciones se necesitan 2 ecuaciones más. El cual se obtiene haciendo equilibro de fuerzas con las cortantes generados en la estructura de la siguiente manera:
 
 **Figura 5.** Equilibrio de fuerzas en la estructura, primera combinación
-![](/.imagenes/f5.png)
+![](./imagenes/f5.png)
 
 Por lo tanto, las cortantes internas serían:
-![](/.imagenes/e7.png)
+![](./imagenes/e7.png)
 
 Equilibrio de fuerzas:
-![](/.imagenes/e5.png)
-![](/.imagenes/e6.png)
+![](./imagenes/e5.png)
+![](./imagenes/e6.png)
 
 Reemplazando con los datos ya conocidos, asumiendo la inercia y el módulo de elasticidad como una unidad, y teniendo en cuenta que no existe giros en los apoyos empotrados de los nodos A, D, y G, obtenemos el sistema de ecuaciones de la siguiente manera:
-![](/.imagenes/e8.png)
+![](./imagenes/e8.png)
 
 La matriz de las ecuaciones se resumen en:
-![](/.imagenes/e9.png)
+![](./imagenes/e9.png)
 
 Considerado que el material del pórtico es acero, obtenemos que la I mínima para cumplir con el desplazamiento máximo es:
 E=2900 kip/in2=4176000 kip/ft2
@@ -103,41 +103,41 @@ Imin=1+2H/400/E=32141+218383/400/4176000=0.431 ft4
 Sin embargo, por cuestiones de seguridad se propone utilizar una inercia un poco mayor,
 I=0.5 ft4
 
-Ver procedimiento detallado en el [*Anexo 1*](/.ANEXO_1_Primera_combinación.pdf)
+Ver procedimiento detallado en el [*Anexo 1*](./ANEXO_1_Primera_combinación.pdf)
 
 #### Segunda combinación
 
 A comparación de la primera combinación, la segunda combinación no considera la carga distribuida del viento, sino cargas puntuales proporcionales a la carga muerta y a los pisos de la estructura que actúan horizontalmente en los nodos B y C. Por lo cual, todas las columnas no tendrían momentos de empotradura y los diagramas se reducen de la siguiente manera:
 
 **Figura 6.** Momentos internos de empotradura en cada tramo, segunda combinación 
-![](/.imagenes/f6.png)
+![](./imagenes/f6.png)
 
 Por lo cual, los momentos internos en los extremos de cada tramo serían:
-![](/.imagenes/e10.png)
+![](./imagenes/e10.png)
 
 
 Realizando el equilibrio de momentos en los nodos, obtenemos:
 
 ***Equilibrio de momentos en los nodos C e I***
-![](/.imagenes/e11.png)
+![](./imagenes/e11.png)
 
 ***Equilibrio de momentos en los nodos B, H, F***
-![](/.imagenes/e12.png)
+![](./imagenes/e12.png)
 
 ***Equilibrio de momentos en el nodo E***
-![](/.imagenes/e13.png)
+![](./imagenes/e13.png)
 
 Además, el equilibrio de fuerzas cambiaria respecto a la combinación 1 pues solo se comparan la fuerza del sismo respecto a las cortantes de la estructura:
 
 **Figura 7.** Equilibrio de fuerzas en la estructura, segunda combinación
-![](/.imagenes/f7.png)
+![](./imagenes/f7.png)
 
 Por lo tanto, las cortantes internas serían:
-![](/.imagenes/e15.png)
+![](./imagenes/e15.png)
 
 Por equilibrio de fuerzas:
-![](/.imagenes/e14.png)
-![](/.imagenes/e16.png)
+![](./imagenes/e14.png)
+![](./imagenes/e16.png)
 
 
 Como en la primera combinación, reemplazando con los datos ya conocidos y asumiendo la inercia y el módulo de elasticidad como una unidad, obtenemos la siguiente matriz del sistema de ecuaciones:
@@ -152,7 +152,7 @@ E=177154+1855843/400/4176000=2.895 ft4
 Sin embargo, por cuestiones de seguridad se decidió utilizar una inercia un poco mayor de
 `I=3 ft4`
 
-Ver procedimiento detallado en el [Anexo 2](/.ANEXO_2_Segunda_combinación.pdf).
+Ver procedimiento detallado en el [Anexo 2](./ANEXO_2_Segunda_combinación.pdf).
 
 
 # 2. Deforestación de la Amazonía en Madre de Dios: Corredor minero
@@ -165,13 +165,13 @@ Proyecto desarrollado como parte del curso de Geodesia Satelital y Fotogrametrí
 
 **Deforestación del corredor minero de 1991 a 2022**
 Resumen de las áreas deforestadas en el corredor minero del distrito de Madre de Dios, provincia de Manu, y en el distrito de Inambari, provincia de Tambopata, desde 1991 a 2022
-![](/.imagenes/mapa.png)
+![](./imagenes/mapa.png)
 
-[Acceder a los mapas de 1990 a 2000](/.imagenes/m1.pdf)
+[Acceder a los mapas de 1990 a 2000](./imagenes/m1.pdf)
 
-[Acceder a los mapas de 2001 a 2009](/.imagenes/m2.pdf)
+[Acceder a los mapas de 2001 a 2009](./imagenes/m2.pdf)
 
-[Acceder a los mapas de 2014 a 2022](/.imagenes/m3.pdf)
+[Acceder a los mapas de 2014 a 2022](./imagenes/m3.pdf)
 
 
 
@@ -183,7 +183,7 @@ Proyecto desarrollado como parte del curso de Hidrología
 
 **Logro:** Se ha procesado y analizado la información hidrometeorológica de la cuenca mediante registros históricos de 1990 al 2010 encontrando un balance hídrico y climático negativo, no hay presencia de escorrentía, y estimando precipitaciones de 73.5 y 82.7 mm en 50 y 100 años de periodo de retorno que a su vez generarían caudales de 31.1 y 46.2 m3/s respectivamente.
 
-![](/.imagenes/INFO.png)
+![](./imagenes/INFO.png)
 
 
 
