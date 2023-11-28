@@ -5,7 +5,7 @@ layout: default
 Mi primer portafolio
 en este se presentará los proyectos que estoy elaborando
 
-[LinkeInd](https://www.linkedin.com/in/anshel-chuquiviguel-za%C3%B1a-7ab93827a/))
+![LinkeInd](https://www.linkedin.com/in/anshel-chuquiviguel-za%C3%B1a-7ab93827a/)
 (https://github.githubassets.com/
 
 # 1. Análisis Estructural de un portico
